@@ -9,3 +9,11 @@
 #megatherium-control:checked ~ .carousel-inner [for="megatherium"] {
 background-color: #fff;
 }
+
+.carousel-items > div {
+  #arsinoitherium-control:checked ~ .carousel-inner #arsinoitherium,
+  #elasmotherium-control:checked ~ .carousel-inner #elasmotherium,
+  #glyptodon-control:checked ~ .carousel-inner #glyptodon,
+  #megatherium-control:checked ~ .carousel-inner #megatherium {
+  display: block;
+}
